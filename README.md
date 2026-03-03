@@ -211,8 +211,6 @@ curl -X DELETE http://localhost:3001/todos/1
   `console.log`/`console.error`.
 - **Testing** — Add unit and integration tests using Jest and Supertest to ensure API correctness
   and prevent regressions.
-- **Environment variables** — Use `dotenv` for configuration (port, database path) instead of
-  hard-coded values.
 - **Soft deletes** — Use Sequelize's `paranoid` mode to soft-delete todos instead of permanently
   removing them.
 - **Due dates & priorities** — Extend the Todo model with `dueDate` and `priority` fields for richer
